@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prj1</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-        <ul type="square">
+        <ul type="dotted">
             <li> <a href="#HOME">HOME</a> </li>
             <li> <a href="#DESTINATION">DESTINATION</a> </li>
             <li> <a href="#BOOKING">BOOKING</a> </li>
@@ -16,27 +17,22 @@
         </ul>
     </nav>
     <section id="HOME">
-        <h1>les 10 meilleurs destinations pour l'étè 2024</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Colombus_Isle.JPG" height="300" width="600" alt="image de plage">
-        <iframe height="300" width="600" src="https://www.youtube.com/embed/O5KM0OEaExM?si=IokxA6GCH11RM9Y1"></iframe>
+        <h1 id="home">les 10 meilleurs destinations pour l'étè 2024</h1>
+        <img  id="img1"src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Colombus_Isle.JPG" height="300" width="600" alt="image de plage">
+        <iframe id="vid1" height="300" width="600" src="https://www.youtube.com/embed/O5KM0OEaExM?si=IokxA6GCH11RM9Y1"></iframe>
     </section>
     
     
     <section id="DESTINATION">
-      <p> Voici un aperçu des dix meilleures plages à visiter en 2024. Anse Source d'Argent, aux Seychelles, est réputée pour ses eaux cristallines et ses rochers de granit emblématiques. Grace Bay à Turks et Caicos offre des kilomètres de sable blanc et des eaux turquoise parfaites pour la plongée. Navagio Beach en Grèce, également connue sous le nom de Shipwreck Beach, est un joyau isolé entouré de falaises spectaculaires. En Thaïlande, Maya Bay est une baie protégée aux paysages époustouflants. Les Maldives, quant à elles, abritent plusieurs plages paradisiaques où le luxe rencontre la nature. Pour les amateurs de surf, Waikiki Beach à Hawaï reste une destination phare. Bondi Beach, en Australie, attire les amoureux de la mer et les voyageurs urbains. Pink Sands Beach aux Bahamas, avec son sable rose distinctif, est une curiosité naturelle. En Europe, Cala Goloritzé en Sardaigne séduit par sa beauté sauvage, tandis que Playa del Amor au Mexique, cachée dans une cavité naturelle, offre une expérience unique. Ces plages, avec leur beauté unique et leurs offres variées, sont incontournables pour 2024.</p>  
-        <ol type="1">
-            <li>kelibia</li>
-            <li>Grace Bay</li>
-            <li>Navagio Beach</li>
-            <li>Maya Bay</li>
-            <li>Maldives</li>
-        </ol>
+        <div>
+        <p id="par1"> Voici un aperçu des dix meilleures plages à visiter en 2024. Anse Source d'Argent, aux Seychelles, est réputée pour ses eaux cristallines et ses rochers de granit emblématiques. Grace Bay à Turks et Caicos offre des kilomètres de sable blanc et des eaux turquoise parfaites pour la plongée. Navagio Beach en Grèce, également connue sous le nom de Shipwreck Beach, est un joyau isolé entouré de falaises spectaculaires. En Thaïlande, Maya Bay est une baie protégée aux paysages époustouflants. Les Maldives, quant à elles, abritent plusieurs plages paradisiaques où le luxe rencontre la nature. Pour les amateurs de surf, Waikiki Beach à Hawaï reste une destination phare. Bondi Beach, en Australie, attire les amoureux de la mer et les voyageurs urbains. Pink Sands Beach aux Bahamas, avec son sable rose distinctif, est une curiosité naturelle. En Europe, Cala Goloritzé en Sardaigne séduit par sa beauté sauvage, tandis que Playa del Amor au Mexique, cachée dans une cavité naturelle, offre une expérience unique. Ces plages, avec leur beauté unique et leurs offres variées, sont incontournables pour 2024.</p>  
+        </div>
     </section>
     
     
-    <section id="BOOKING">
-        <h2>Booking your flight with us </h2>
-        STATUS:<select>
+<section id="BOOKING">
+        <h2 id="booking">Booking your flight with us </h2>
+ STATUS:<select>
             <option id="single">single</option>
             <option id="couple">couple</option>
             <option id="family">family</option>
@@ -52,7 +48,8 @@
         <br>
         DATE OF FLIGHT<input type="date" id="birthday" />
         <br>
-        AVAIBILITY:<table border="1">
+        <table border="1" >
+            <label>AVAIBILITY:</label>
             <tr>
                 <th>destination</th>
                 <th>date</th>
@@ -76,19 +73,24 @@
     
     
     
-    <section id="#SPONSORS">
-       <h2>EXITING SPONSORS !</h2> 
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf1-9JUPQMVCJyKU3cIvefpRTNOxMW2gH5Tg&s" height="300" width="500">
-       <img src="https://jamaity.org/wp-content/uploads/2014/07/logo_ptf_uk.jpg" height="300" width="500">
+    <section id="SPONSORS">
+       <h2 id="spons">EXITING SPONSORS !</h2> 
+       <img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf1-9JUPQMVCJyKU3cIvefpRTNOxMW2gH5Tg&s" height="300" width="500">
+       <img id="img3"src="https://jamaity.org/wp-content/uploads/2014/07/logo_ptf_uk.jpg" height="300" width="500">
     </section>
     
     
     
     <section id="CONTACT">
+        <div>
         <a href="https://www.traveltodo.com/">contact us via official web site</a>
+        </div>
+        <div>
         <p><b>mail</b>:transportfree@gmail.com</p>
+        </div>
+        <div>
         <p>phone number:+216 98455655</p>
-
+        </div>
     </section>
 
 </body>

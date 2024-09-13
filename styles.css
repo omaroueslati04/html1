@@ -1,0 +1,66 @@
+nav{
+    background-color: rgb(29, 223, 236);
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 20px 90px ;
+
+
+}
+li a:hover{
+     background-color: rgb(244, 5, 17);
+}
+#home{
+    margin-left: 450px;
+    font-style:italic;
+    color: aquamarine;
+}
+#img1{
+    margin-left: 10px;
+}
+#vid1{
+    margin-left: 100px;
+}
+#DESTINATION{
+    margin: 40px 10px;
+}
+#par1{
+    color: white;
+    border: 2px red dashed ;
+}
+body{
+    background-color: rgb(5, 34, 76);
+}
+
+#DESTINATION>div{
+    display: inline-block;
+}
+#booking{
+    margin-left: 500px;
+    font-style:italic;
+    color: aquamarine;
+}
+ 
+table{
+    margin-left: 550px;
+}
+#spons{
+    margin-left: 500px;
+    font-style:italic ;
+    color: aquamarine;
+    }
+    #img2{
+        margin-left: 120px;
+    }
+    #img3{
+        margin-left: 30px;
+    }
+    #CONTACT>div{
+        display: inline-block;
+        margin-left: 120px;
+    }
+    #CONTACT{
+        background-color: rgb(29, 223, 236);
+    }
